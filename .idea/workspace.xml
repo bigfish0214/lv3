@@ -2,23 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c712be00-ec8d-45a6-8b8e-1e854b4f4c89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/iterator/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/iterator/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/iterator/NameRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/main/IteratorPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/main/MediatorPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/main/MementoPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/main/ObserverPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/mediator/ChatRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/mediator/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/memo/CareTaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/memo/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/memo/Originator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/observer/BinaryObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/observer/HexObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/observer/OctalObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/main/NullPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/main/StatePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/main/StrategyPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/nullobject/AbstractCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/nullobject/CustomerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/nullobject/NullCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/nullobject/RealCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/state/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/state/StartState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/state/StopState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/strategy/OperationAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/strategy/OperationMultiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/strategy/OperationSubstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lv3/cc/strategy/Strategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,125 +48,123 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/memo/Memento.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/nullobject/AbstractCustomer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="105">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/nullobject/RealCustomer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding>
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/memo/Originator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-              <folding>
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#528#529#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/memo/CareTaker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#218#227#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/main/MementoPatternDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/observer/Subject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#224#234#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/observer/BinaryObserver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="65" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/observer/OctalObserver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/observer/HexObserver.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/nullobject/CustomerFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/main/NullPatternDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/strategy/Strategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/strategy/OperationAdd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <folding>
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/strategy/OperationSubstract.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <folding>
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/strategy/OperationMultiply.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <folding>
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/strategy/Context.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/main/ObserverPatternDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/main/StrategyPatternDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="300">
+              <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/observer/Observer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -204,22 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/criteria/impl/AndCriteria.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/criteria/impl/OrCriteria.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/main/CriteriaMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/entity/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/main/CompositePatternDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/item/ShapeDecorator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/item/impl/RedShapeDecorator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/main/DecoratorPatternDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/item/impl/ShapeMaker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/main/FacadePatternDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/flyweight/ShapeFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/main/FlyWeightPatternDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/main/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/image/Image.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/image/impl/RealImage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/image/impl/ProxyImage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/main/ProxyPatternDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/logger/AbstractLogger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/logger/ConsoleLogger.java" />
@@ -255,6 +236,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/observer/HexObserver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/main/ObserverPatternDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/observer/OctalObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/state/State.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/state/Context.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/state/StartState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/state/StopState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/main/StatePatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/nullobject/AbstractCustomer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/nullobject/RealCustomer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/nullobject/CustomerFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/nullobject/NullCustomer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/main/NullPatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/strategy/Strategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/strategy/OperationAdd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/strategy/OperationSubstract.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/strategy/OperationMultiply.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/strategy/Context.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lv3/cc/main/StrategyPatternDemo.java" />
       </list>
     </option>
   </component>
@@ -269,10 +266,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="821" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="714" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -418,7 +414,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cc" type="462c0819:PsiDirectoryNode" />
-              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lv3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lv3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cc" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lv3" type="b2602c69:ProjectViewProjectNode" />
@@ -458,48 +463,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ObserverPatternDemo">
-    <configuration name="InterpreterPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lv3.cc.main.InterpreterPatternDemo" />
-      <module name="lv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lv3.cc.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IteratorPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lv3.cc.main.IteratorPatternDemo" />
-      <module name="lv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lv3.cc.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MediatorPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lv3.cc.main.MediatorPatternDemo" />
-      <module name="lv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lv3.cc.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StrategyPatternDemo">
     <configuration name="MementoPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lv3.cc.main.MementoPatternDemo" />
+      <module name="lv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lv3.cc.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NullPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lv3.cc.main.NullPatternDemo" />
       <module name="lv3" />
       <extension name="coverage">
         <pattern>
@@ -524,13 +503,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StatePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lv3.cc.main.StatePatternDemo" />
+      <module name="lv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lv3.cc.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lv3.cc.main.StrategyPatternDemo" />
+      <module name="lv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lv3.cc.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrategyPatternDemo" />
+        <item itemvalue="Application.NullPatternDemo" />
+        <item itemvalue="Application.StatePatternDemo" />
         <item itemvalue="Application.ObserverPatternDemo" />
         <item itemvalue="Application.MementoPatternDemo" />
-        <item itemvalue="Application.MediatorPatternDemo" />
-        <item itemvalue="Application.IteratorPatternDemo" />
-        <item itemvalue="Application.InterpreterPatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -545,18 +550,18 @@
       <option name="presentableId" value="Default" />
       <updated>1573091212223</updated>
       <workItem from="1573091216856" duration="33553000" />
-      <workItem from="1573542581573" duration="13141000" />
+      <workItem from="1573542581573" duration="16319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46694000" />
+    <option name="totallyTimeSpent" value="49872000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -565,7 +570,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -596,150 +601,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/item/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/main/DecoratorPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/item/impl/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/item/impl/RedShapeDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/item/ShapeDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/enums/ItemType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/main/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/item/impl/ShapeMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/factory/impl/ShapeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/image/Image.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/image/impl/RealImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/image/impl/ProxyImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/thread/SingletonThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-          <folding>
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/flyweight/ShapeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/main/FlyWeightPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/main/FacadePatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/logger/ErrorLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1101,6 +962,167 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/state/StopState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding>
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/state/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/state/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/state/StartState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/main/StatePatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/nullobject/NullCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/nullobject/RealCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/nullobject/AbstractCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/nullobject/CustomerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/main/NullPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/strategy/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/strategy/OperationAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/strategy/OperationSubstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/strategy/OperationMultiply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/strategy/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lv3/cc/main/StrategyPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
